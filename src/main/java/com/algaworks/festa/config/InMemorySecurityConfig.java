@@ -1,0 +1,25 @@
+/**
+ * 
+ */
+package com.algaworks.festa.config;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.annotation.Configuration;
+
+
+/**
+ * @author Roberto
+ *
+ */
+@Configuration
+public class InMemorySecurityConfig {
+	
+	/*@Autowired
+	public void configureGlobal(AuthenticationManagerBuilder builder) throws Exception {
+	
+		builder.inMemoryAuthentication().withUser("joao").password("123").roles("USER").and()
+								.withUser("alexandre").password("123").roles("USER").and()
+								.withUser("thiago").password("123").roles("USER");
+	}*/
+
+}
