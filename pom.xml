@@ -86,12 +86,15 @@
 
 	<build>
 		<plugins>
-			<plugin>
+			<!-- <plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
-				<configuration>
-			        <source>1.8</source>
-			        <target>1.8</target>
+			</plugin> -->
+			<plugin>
+			    <groupId>org.apache.maven.plugins</groupId>
+			    <artifactId>maven-compiler-plugin</artifactId>
+			    <configuration>
+			        <release>11</release>  <!--or <release>10</release>-->
 			    </configuration>
 			</plugin>
 		</plugins>
